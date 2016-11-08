@@ -54,7 +54,7 @@ public class AnswerGeneratorTest {
     results.add(answerGenerator.generate());
     results.add(answerGenerator.generate());
     
-    assertThat(results.size()).isEqualTo(4);
+    assertThat(results.size()).isEqualTo(3);
   }
   
 }
