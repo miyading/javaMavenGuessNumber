@@ -130,7 +130,7 @@ public class GameProcessTest {
     inOrder.verify(out).println("please input your number: ");
     inOrder.verify(out).println("0A4B");
     inOrder.verify(out).println("please input your number: ");
-    inOrder.verify(out, never()).println("4A2B");
+    inOrder.verify(out, never()).println("4A0B");
     inOrder.verify(out, never()).println("game over");
   }
 }
